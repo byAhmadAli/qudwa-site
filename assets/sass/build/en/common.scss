@@ -1,0 +1,19 @@
+// settings
+@import "../../variables";
+@import "settings";
+
+// fonts icons
+@import "font-awesome";
+
+//bootstrap
+@import "bootstrap";
+
+
+
+// Components
+@import
+  "../../components/common",
+  "../../components/mixin",
+  "../../components/header",
+  "../../components/icons-bg",
+  "../../components/inner";

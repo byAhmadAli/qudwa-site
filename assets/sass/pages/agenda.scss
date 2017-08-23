@@ -1,0 +1,302 @@
+.agenda{
+	position: relative;
+	background: #fff;
+	.filter{
+		position: absolute;
+	    #{$opposite-direction}: 20px;
+		top: 45px;
+		@media (max-width: $screen-sm-max){
+			width: 40px;
+			height: 40px;
+			top: 40px;
+			#{$opposite-direction}: 40px;
+			.inner-icon-bg.icon-filter{
+				background-position: 0 -44px;
+				width: 100%;
+				height: 100%;
+				background-size: 67px;
+			}
+		}
+	}
+	.container{
+		position: relative;
+	}
+	.agenda-head {
+		background-position: 0 286px;
+		@media (min-width: $screen-desktop) {
+			font-size: 40px;
+			line-height: 40px;
+			padding-top: 65px;
+		}
+	}
+	&.container{
+		@media (max-width: $screen-sm-max){
+			width: 100%;
+			padding: 0;
+			margin-top: 25px;
+		}
+	}
+	> .col-xs-12{
+		.headers{
+			@media (max-width: $screen-sm-max){
+				background: none!important;
+			}
+		}
+		@media (max-width: $screen-sm-max){
+			width: 50%;
+			left: 0;
+			right: 0;
+			margin: auto;
+			padding: 0;
+			position: fixed;
+			top: 35px;
+			z-index: 2;
+		}
+	}
+	.nav-tabs{
+		width: 613px;
+		margin: 0 auto 20px;
+		@media (max-width: $screen-sm-max){
+			width: 500px;
+			margin-top: 25px;
+		}
+		> li{
+			width: 50%;
+		    padding-#{$opposite-direction}:10px;
+		    &:last-child{
+		    	padding: 0;
+		    	padding-#{$default-float}: 10px;
+		    }
+			> a{
+				width: 100%;
+				background: #c5c5c5;
+				border-radius: 20px;
+				color: #fff;
+				font-weight: bold;
+				text-align: center;
+				padding: 16px 0;
+				font-size: 20px;
+				&:hover, &:focus{
+					background: #72a7c2;
+					color: #fff;
+				}
+			}
+			&.active{
+				> a{
+					background: #72a7c2;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.timeline{
+	width: 100%;
+	position: relative;
+	float: #{$default-float};
+	margin-bottom: 50px;
+	&:before{
+		position: absolute;
+		#{$default-float}: 0;
+		#{$opposite-direction}: 0;
+		margin: auto;
+		top: 0;
+		content: ' ';
+		display: block;
+		width: 1px;
+		height: 100%;
+		background: #fece02;
+		@media (max-width: $screen-sm-max){
+			#{$opposite-direction}: auto;
+			margin-top: 40px;
+		}
+	}
+	&.main-agenda{
+		.timeline-item{
+			&:nth-child(even){
+				.pull-#{$default-float}{
+					padding-#{$opposite-direction}: 35px;
+				}
+			}
+			&:nth-child(odd){
+				.pull-#{$opposite-direction}{
+					padding-#{$default-float}: 35px;
+				}
+			}
+		}
+	}
+	&.my-agenda{
+		.timeline-item{
+			&:nth-child(odd){
+				.pull-#{$default-float}{
+					padding-#{$opposite-direction}: 35px;
+				}
+			}
+			&:nth-child(even){
+				.pull-#{$opposite-direction}{
+					padding-#{$default-float}: 35px;
+				}
+			}
+		}
+	}
+	.timeline-item{
+		width: 100%;
+		position: relative;
+		float: #{$default-float};
+		min-height: 150px;
+		margin: 20px 0;
+		@media (max-width: $screen-sm-max){
+			&:before{
+				content: ' ';
+			    position: absolute;
+			    #{$default-float}: -12px !important;
+			    background: #fff;
+			    height: 20px;
+			    width: 25px;
+			    bottom: -22%;
+			    border-top: 1px solid #fece02;
+			}
+			.pull-#{$default-float}, .pull-#{$opposite-direction}{
+				@media (max-width: $screen-sm-max){
+					padding-#{$default-float}: 35px!important;
+					padding-#{$opposite-direction}: 35px!important;
+				}
+			}
+		}
+		.timeline-content{
+			position: relative;
+			min-height: 200px;
+			background: #f5f5f5;
+			border-radius: 15px;
+			padding: 25px;
+			float: #{$default-float};
+			.rating-container{
+				position: absolute;
+			    #{$opposite-direction}: 25px;
+			    top: 25px;
+			}
+			.rating{
+				position: relative;
+				float: #{$opposite-direction};
+				color: #fece02;
+				.rating-val{
+					position: absolute;
+					top: 0;
+					#{$default-float}: 0;
+					white-space: nowrap;
+					overflow: hidden;
+				}
+			}
+			h3{
+				margin: 0;
+			}
+			p{
+				margin: 0;
+				margin-top: 25px;
+				line-height: 16px;
+				margin-bottom: 15px;
+			}
+			.speeker-info{
+				position: absolute;
+				bottom: 25px;
+				.speeker-img{
+					width: 35px;
+					float: #{$default-float};
+					position: relative;	
+					margin-#{$opposite-direction}: 10px;
+					img{
+						width: 100%;
+						border-radius: 10px;
+						position: relative;
+						z-index: 1;
+					}
+					&:before{
+						content: '';
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						background: #2c0052;
+						top: -2px;
+						#{$opposite-direction}: -2px;
+						z-index: 0;
+						border-radius: 10px;
+					}
+				}
+				.speeker-details{
+					float: #{$default-float};
+					line-height: 14px;
+    				font-size: 14px
+				}
+			}
+			.actions{
+				position: absolute;
+				#{$opposite-direction}: 25px;
+    			bottom: 25px;
+				ul{
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					height: 40px;
+					li{
+						display: inline-block;
+						height: 40px;
+						a{
+							display: inline-block;
+							padding: 0 5px;
+							height: 40px;
+						}
+					}
+				}
+			}
+		}
+		.time{
+			padding: 50px 0;
+			font-size: 30px;
+			color: #fece02;
+			position: relative;
+			@media (max-width: $screen-sm-max){
+				text-align: #{$default-float} !important;
+				padding: 0 20px!important;
+			}
+			&:after{
+				content: ' ';
+				position: absolute;
+				width: 25px;
+				height: 25px;
+				border-radius: 50%;
+				background: #fece02;
+				top: 42%;
+				@media (max-width: $screen-sm-max){
+					top: 15px !important;
+					#{$default-float}: -46px !important;
+					#{$opposite-direction}: auto !important;
+				}
+			}
+		}
+		.pull-#{$default-float}{
+			@media (min-width: $screen-desktop) {
+				float: #{$default-float};
+			}
+			.time{
+				text-align: #{$opposite-direction};
+				padding-#{$opposite-direction}: 30px;
+				&:after{
+					#{$opposite-direction}: -27px;
+				}
+			}
+		}
+		.pull-#{$opposite-direction}{
+			@media (min-width: $screen-desktop) {
+				float: #{$opposite-direction};
+			}
+			.time{
+				text-align: #{$default-float};
+				padding-#{$default-float}: 30px;
+				&:after{
+					#{$default-float}: -27px;
+				}
+			}
+		}
+	}
+}

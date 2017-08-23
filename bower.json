@@ -1,0 +1,23 @@
+{
+  "name": "Qudwa",
+  "version": "0.1.0",
+  "author": "Ahmad Ali <hello@ahmadali.me>",
+  "description": "Qudwa Assets.",
+  "license": "MIT",
+  "homepage": "qudwa.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "bootstrap-sass-direction#*",
+    "font-awesome": "fontawesome#^4.7.0",
+    "slick-carousel": "^1.6.0",
+    "jquery.countdown": "^2.2.0"
+  }
+}

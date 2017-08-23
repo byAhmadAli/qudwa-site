@@ -1,0 +1,29 @@
+{
+  "name": "CASHU",
+  "version": "0.1.0",
+  "description": "CASHU Assets.",
+  "author": "Ahmad Ali <hello@ahmadali.me>",
+  "devDependencies": {
+    "assemble": "~0.4.0",
+    "grunt": "^0.4.5",
+    "grunt-bless": "^0.2.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-css-count": "^0.3.1",
+    "grunt-css-metrics": "~0.1.2",
+    "grunt-csssplit": "^0.4.0",
+    "grunt-sass": "~1.1.0-beta",
+    "load-grunt-tasks": "^3.1.0",
+    "logfile-grunt": "^0.1.6",
+    "time-grunt": "^1.1.1",
+    "moment": "^2.8.1",
+    "lodash": "^2.4.1",
+    "requirejs": "^2.1.14",
+    "underscore": "^1.6.0"
+  },
+  "license": "MIT"
+}

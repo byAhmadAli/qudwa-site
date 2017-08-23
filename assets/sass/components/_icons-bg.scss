@@ -1,0 +1,112 @@
+.menu-icon-bg{
+	background: url(../../images/menu-icons.png) 0 0 no-repeat;
+    float: #{$default-float};
+    padding: 0;
+    margin: 0;
+    height: 58px;
+    width: 58px;
+    &.icon-{
+    	&about{
+			background-position: 0 0;
+		}
+    	&log-in{
+    		background-position: 0 -76px;
+    	}
+    	&aganda{
+    		background-position: 0 -152px;
+    	}
+		&my-fav{
+			background-position: 0 -228px;
+		}
+		&speekers{
+			background-position: 0 -304px;
+		}
+		&partners{
+			background-position: 0 -381px;
+		}
+		&ask-vote{
+			background-position: -78px 0;
+		}
+		&attendees{
+			background-position: -78px -76px;
+		}
+		&networking{
+			background-position: -78px -152px;
+		}
+		&knowledge{
+			background-position: -78px -228px;
+		}
+		&contact{
+			background-position: -78px -304px;
+		}
+    }
+}
+
+.inner-icon-bg{
+	background: url(../../images/inner-icons.png) 0 0 no-repeat;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    &.icon-{
+    	&user-big{
+			background-position: 0 0;
+			width: 65px;
+			height: 65px;
+		}
+		&user-small{
+			background-position: -78px -26px;
+			width: 40px;
+			height: 40px;
+		}
+		&filter{
+			background-position: 0 -86px;
+			width: 80px;
+			height: 80px;
+		}
+		&heart-small{
+			background-position: 6px -173px;
+			width: 40px;
+			height: 40px;
+		}
+		&share-small{
+			background-position: -40px -173px;
+			width: 40px;
+			height: 40px;
+		}
+		&check-circle{
+			background-position: 0 -226px;
+			width: 40px;
+			height: 40px;
+		}
+		&plus-circle{
+			background-position: -57px -226px;
+			width: 40px;
+			height: 40px;
+		}
+		&share-big{
+			background-position: 0 -280px;
+			width: 40px;
+			height: 40px;
+		}
+		&msgs-big{
+			background-position: -53px -280px;
+			width: 40px;
+			height: 40px;
+		}
+		&heart-big{
+			background-position: 4px -331px;
+			width: 40px;
+			height: 40px;
+		}
+		&heart-big-off{
+			background-position: -32px -331px;
+			width: 40px;
+			height: 40px;
+		}
+		&search{
+			background-position: -87px -338px;
+			width: 45px;
+			height: 45px;
+		}
+	}
+}

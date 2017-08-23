@@ -1,0 +1,29 @@
+---
+layout: web/layouts/inner.html
+---
+<div class="inner-content">
+	<div class="agenda">
+		<div class="col-xs-12">
+			<div class="agenda-head headers" style="background-image: url('images/{{lang}}/inner-heading-sprite.png');">
+				agenda
+			</div>
+		</div>
+		<div class="container">
+			<a href="#" class="filter">
+				<i class="inner-icon-bg icon-filter"></i>
+			</a>
+			<ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#main-agenda" aria-controls="main-agenda" role="tab" data-toggle="tab">Main Agenda</a></li>
+			    <li role="presentation"><a href="#my-agenda" aria-controls="my-agenda" role="tab" data-toggle="tab">My Agenda</a></li>
+		  	</ul>
+		  	<div class="tab-content">
+		  		<div role="tabpanel" class="tab-pane active" id="main-agenda">
+		  			{{> _timeline-left}}
+		  		</div>
+		  		<div role="tabpanel" class="tab-pane" id="my-agenda">
+		  			{{> _timeline-right}}
+		  		</div>
+		  	</div>
+		</div>
+	</div>
+</div>

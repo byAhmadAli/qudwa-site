@@ -1,0 +1,14 @@
+// settings
+@import "../../variables";
+@import "settings";
+
+// Components
+@import
+  "../../components/count-down",
+  "../../components/slick",
+  "../../components/slick-theme",
+  "../../components/progress";
+
+// Page
+@import 
+  "../../pages/home";

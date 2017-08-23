@@ -1,0 +1,35 @@
+@mixin center-y($position: relative) {
+	position: $position;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.count-down {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	width: 100%;
+	
+	li {
+		position: relative;
+		font-size: 11px;
+		display: inline-block;
+		padding: 0 2px;
+		.number{
+			font-size: 20px;
+			border: 1px solid #fff;
+			background: #5e5e84;
+			border-radius: 10px;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			margin-top: 10px;
+		}
+		.word{
+			text-transform: uppercase;
+		}
+	}
+}

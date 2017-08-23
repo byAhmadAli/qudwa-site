@@ -1,0 +1,22 @@
+---
+layout: web/layouts/inner.html
+---
+<div class="inner-content">
+	<div class="attendees">
+		<div class="col-xs-12">
+			<div class="attendees-head headers" style="background-image: url('images/{{lang}}/inner-heading-sprite.png');">
+				attendees
+			</div>
+		</div>
+		<div class="container">
+			<a href="#" class="filter">
+				<i class="inner-icon-bg icon-filter"></i>
+			</a>
+			<div class="col-xs-12 attendees-cards">
+				<div class="row">
+					{{> _attendees}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,328 @@
+.first-header{
+	position: fixed;
+	width: 100%;
+	padding: 7px 0;
+	z-index: 2;
+	background: #fff;
+	box-shadow: 0px 0px 10px #888888;
+	.logo{
+		width: 75px;
+		float: #{$opposite-direction};
+		img{
+			width: 100%;
+		}
+	}
+	.menu{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		line-height: 75px;
+		li{
+			float: #{$default-float};
+			padding: 10px 10px;
+			&:first-child{
+				padding-#{$default-float}: 0;
+			}
+			&.text{
+				padding: 8px 10px;
+				a{
+					color: #2c0052;
+					&:hover{
+						color: darken(#2c0052, 15%);
+					}
+				}
+			}
+			&.sep{
+			    padding: 0;
+			    border-#{$opposite-direction}: 1px solid;
+			    height: 25px;
+			    width: 1px;
+			    margin: 32px 0;
+			}
+			a{
+				i{
+					font-size: 25px;
+					&.fa-search{
+						color: #2c0052;
+					}
+				}
+			}
+		}
+	}
+}
+.main-header{
+    background: url(../../images/main-bg.png) center no-repeat #201b4e;
+    background-size: cover;
+    padding-bottom: 75px;
+    position: relative;
+	.main-img{
+		position: relative;
+		padding-top: 250px;
+		width: 752px;
+		margin: 0 auto;
+		@media (max-width: $screen-sm-min){
+			width: 100%
+		}
+		img{
+			width: 100%;
+			@media (max-width: $screen-sm-min){
+				padding: 0 30px;
+			}
+		}
+		.main-content-top{
+			position: absolute;
+			top: 250px;
+			#{$default-float}: 311px;
+			width: 441px;
+			padding: 0 30px;
+			text-align: center;
+			color: #fff;
+			line-height: 25px;
+			font-size: 22px;
+			@media (max-width: $screen-sm-min){
+				position: static;
+				width: 100%;
+				margin-bottom: 50px;
+			}
+			p{
+				margin: 6px 0 7px;
+				@media (max-width: $screen-sm-min){
+					margin: 50px 0;
+				}
+			}
+			h2{
+				margin: 0;
+				font-size: 50px;
+				color: #fff;
+				font-weight: bold;
+			}
+			.gold{
+				color: #ffb617;
+			}
+			.blue{
+				color: #69acc6;
+				letter-spacing: 2px;
+				.line{
+					background: #69acc6;
+					height: 2px;
+					width: 20px;
+					display: inline-block;
+					margin: 5px 0;
+				}
+			}
+		}
+		.main-content-bottom{
+			position: absolute;
+			bottom: -35px;
+			#{$default-float}: 311px;
+			width: 441px;
+			padding: 0 30px;
+			text-align: center;
+			color: #fff;
+			line-height: 1;
+			font-size: 22px;
+			.main-icons{
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				text-align: #{$default-float};
+				li{
+					display: inline-block;
+					margin: 0 6px;
+				}
+			}
+		}
+	}
+	.main-links{
+	    width: 400px;
+	    margin: 0 auto;
+	    position: absolute;
+	    #{$default-float}: 0;
+	    #{$opposite-direction}: 0;
+	    bottom: 50px;
+	    z-index: 99;
+	    @media (max-width: $screen-sm-max){
+			width: 70%;
+		}
+		@media (max-width: $screen-xs-max){
+			width: 100%;
+		}
+		a{
+			float: #{$default-float};
+			width: 33.3333333333%;
+			padding: 0 15px;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
+
+.menu-active{
+	overflow: hidden;
+}
+.main-menu{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+    width: 0;
+    transition: all 0.3s ease-in-out;
+	white-space: nowrap;
+    height: 100%;
+    box-shadow: 0px 0 10px #888888;
+    #{$default-float}: 0;
+    @media (max-width: $screen-xs-max){
+		overflow-y: scroll;
+	}
+    &.active{
+    	width: 75%;
+    }
+    .item{
+    	float: #{$default-float};
+		width: 100%;
+		&.menu-head{
+			background: #2b0051;
+			.first-head-menu{
+			    list-style: none;
+			    margin: 0;
+			    padding: 0;
+			    margin-#{$default-float}: 50px;
+			    @media (max-width: $screen-xs-max){
+    				margin-#{$default-float}: 0;
+    			}
+				li{
+				    padding: 7px 0;
+	    			display: inline-block;
+				}
+			}
+			.first-head-menu{
+				float: #{$default-float};
+				li{
+					font-size: 30px;
+				}
+			}
+		}
+		&.menu-main-header{
+			background: #59abc8;
+			padding: 0;
+			.avatar{
+				float: #{$default-float};
+				@media (max-width: $screen-xs-max){
+					text-align: center;
+					width: 100%;
+					display: block;
+					float: none
+				}
+				img{
+					width: 100px;
+			    	margin: 20px 0;
+			    	margin-#{$opposite-direction}: 10px;
+				}
+			}
+			.details{
+				text-transform: uppercase;
+				color: #fff;
+				line-height: 1;
+				padding: 43px 0;
+				float: #{$default-float};
+				font-size: 30px;
+				@media (max-width: $screen-xs-max){
+    				padding: 0;
+    				padding-bottom: 20px;
+    				float: none;
+					text-align: center;
+					width: 100%;
+					display: block;
+    			}
+			}
+		}
+		&.menu-main-items{
+			height: 100%;
+			background: #fff;
+			padding: 0 50px;
+			@media (max-width: $screen-xs-max){
+				padding: 0;
+				height: auto;
+			}
+			ul{
+				list-style: none;
+				margin: 0;
+				padding: 10px 0;
+    			margin: 5px 0;
+    			width: 50%;
+    			float: #{$default-float};
+    			@media (max-width: $screen-xs-max){
+    				float: none;
+    				margin: 0;
+    				padding: 0
+    			}
+				li{
+					a{
+						display: block;
+					    height: 58px;
+						line-height: 58px;
+						margin: 10px 0;
+						text-transform: capitalize;
+						color: #2b0051;
+						span{
+							margin-#{$default-float}: 10px;
+						}
+					}
+				}	
+			}
+		}
+    }
+}
+
+.search-overlay{
+	display: none;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	height: 100%;
+	#{$default-float}: 0;
+	top: 0;
+	z-index: 1;
+	form{
+		width: 75%;
+		margin: 25% auto;
+		position: relative;
+		input{
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				color: #2c0052;
+			}
+			&::-moz-placeholder { /* Firefox 19+ */
+				color: #2c0052;
+			}
+			&:-ms-input-placeholder { /* IE 10+ */
+				color: #2c0052;
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+				color: #2c0052;
+			}
+			border: none;
+			border-bottom: 1px solid #2c0052;
+			font-size: 30px;
+			box-shadow: none;
+			transition: all 0.3s ease-in-out;
+			padding: 10px 20px;
+    		height: 65px;
+			&:focus{
+				box-shadow: none;
+				border-bottom: 2px solid #2c0052;
+			}
+		}
+		.close-popup{
+			position: absolute;
+			font-size: 30px;
+			#{$opposite-direction}: 0;
+			top: -50px;
+			cursor: pointer;
+			color: #2c0052;
+			&:hover{
+				color: darken(#2c0052, 15%);
+			}
+		}
+	}
+}

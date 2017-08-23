@@ -1,0 +1,22 @@
+.inner{
+	.inner-content{
+		padding-top: 122px;
+	}
+	.first-header{
+		background-color: #201b4e;
+		.menu{
+			li{
+			    margin-top: 25px;
+			    height: 40px;
+			    padding: 0!important;
+				a{
+					height: 40px;
+					display: inline-block;
+					i{
+						font-size: 47px;
+					}
+				}
+			}
+		}
+	}
+}

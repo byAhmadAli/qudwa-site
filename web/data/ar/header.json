@@ -1,0 +1,244 @@
+{
+  "header":{
+    "title": "fashion",
+	"default_link": "ar",
+	"opposite_link": "en",
+    "language": {
+    	"default": "عربي",
+    	"opposite": "English"
+    },
+    "login": "تسجيل دخول",
+    "signup": {
+    	"default": "مستخدم جديد",
+    	"msg": "لا تملك حسابا حتى الآن؟"
+    },
+    "search": "ما الذي تبحث عنه؟",
+    "menu": [
+        {
+            "icon": "fa fa-home",
+            "link": "home.html"
+        },
+        {
+            "text": "جديد في",
+            "link": "list.html",
+            "subMenu":{
+                "first":[
+                    {
+                        "head": "ملابس خارجية النسائية",
+                        "menu": [
+                            {
+                                "text": "معاطف المرأة",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "جاكيتات نسائية",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "head": "قمم للمرأة",
+                        "menu": [
+                            {
+                                "text": "قميص المرأة",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "المرأة هوديس",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "البلوزات النسائية",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ],
+                "second":[
+                    {
+                        "head": "قمم للمرأة",
+                        "menu": [
+                            {
+                                "text": "قميص المرأة",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "المرأة هوديس",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "البلوزات النسائية",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "المرأة هوديس",
+                        "link": "list.html"
+                    },
+                    {
+                        "text": "المرأة هوديس",
+                        "link": "list.html"
+                    }
+                ],
+                "last":[
+                    {
+                        "head": "ملابس خارجية النسائية",
+                        "menu": [
+                            {
+                                "text": "معاطف المرأة",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "جاكيتات نسائية",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "جاكيتات نسائية",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "text": "عروض",
+            "link": "list.html"
+        },
+        {
+            "text": "نساء",
+            "link": "list.html",
+            "subMenu":{
+                "first":[
+                    {
+                        "head": "ملابس خارجية النسائية 2",
+                        "menu": [
+                            {
+                                "text": "معاطف المرأة 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "جاكيتات نسائية 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "head": "قمم للمرأة 2",
+                        "menu": [
+                            {
+                                "text": "قميص المرأة 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "المرأة هوديس 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "البلوزات النسائية 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ],
+                "second":[
+                    {
+                        "head": "قمم للمرأة 2",
+                        "menu": [
+                            {
+                                "text": "قميص المرأة 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "المرأة هوديس 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "البلوزات النسائية 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "المرأة هوديس 2",
+                        "link": "list.html"
+                    },
+                    {
+                        "text": "المرأة هوديس 2",
+                        "link": "list.html"
+                    }
+                ],
+                "last":[
+                    {
+                        "head": "ملابس خارجية النسائية 2",
+                        "menu": [
+                            {
+                                "text": "معاطف المرأة 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "جاكيتات نسائية 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "جاكيتات نسائية 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "معاطف المرأة 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "text": "رجال",
+            "link": "list.html"
+        },
+        {
+            "text": "مناسبات و اعراس",
+            "link": "list.html"
+        },
+        {
+            "text": "احذية",
+            "link": "list.html"
+        },
+        {
+            "text": "اكسسوارات",
+            "link": "list.html"
+        }
+    ],
+    "bag": "مشترياتي"
+  }
+}

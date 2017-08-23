@@ -1,0 +1,246 @@
+{
+  "header":{
+    "title":"fashion",
+    "default_link": "en",
+	"opposite_link": "ar",
+    "language": {
+    	"default": "English",
+    	"opposite": "عربي"
+    },
+    "login": "Log in",
+    "signup": {
+    	"default": "Sign up",
+    	"msg": "Don't have an account?"
+    },
+    "search": "What are you looking for?",
+    "menu": [
+        {
+            "icon": "fa fa-home",
+            "link": "home.html"
+        },
+        {
+            "text": "new in",
+            "link": "list.html",
+            "subMenu":{
+                "first":[
+                    {
+                        "head": "Women's outerwears",
+                        "menu": [
+                            {
+                                "text": "Women's Coats",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "head": "Women's tops",
+                        "menu": [
+                            {
+                                "text": "Women's Shirts",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Hoodies",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Sweaters",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ],
+                "second":[
+                    {
+                        "head": "Women's outerwears",
+                        "menu": [
+                            {
+                                "text": "Women's Coats",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Women's tops",
+                        "link": "list.html"
+                    },
+                    {
+                        "text": "Women's tops",
+                        "link": "list.html"
+                    }
+                ],
+                "last":[
+                    {
+                        "head": "Women's outerwears",
+                        "menu": [
+                            {
+                                "text": "Women's Coats",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Coats",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "text": "deals",
+            "link": "list.html"
+        },
+        {
+            "text": "women",
+            "link": "list.html",
+            "subMenu":{
+                "first":[
+                    {
+                        "head": "Women's outerwears 2",
+                        "menu": [
+                            {
+                                "text": "Women's Coats 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "head": "Women's tops 2",
+                        "menu": [
+                            {
+                                "text": "Women's Shirts 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Hoodies 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Sweaters 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ],
+                "second":[
+                    {
+                        "head": "Women's outerwears 2",
+                        "menu": [
+                            {
+                                "text": "Women's Coats 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Women's tops 2",
+                        "link": "list.html"
+                    },
+                    {
+                        "text": "Women's tops 2",
+                        "link": "list.html"
+                    }
+                ],
+                "last":[
+                    {
+                        "head": "Women's outerwears 2",
+                        "menu": [
+                            {
+                                "text": "Women's Coats 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Coats 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Jackets 2",
+                                "link": "list.html"
+                            },
+                            {
+                                "text": "Women's Blazers 2",
+                                "link": "list.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "text": "men",
+            "link": "list.html"
+        },
+        {
+            "text": "wedding & events",
+            "link": "list.html"
+        },
+        {
+            "text": "shoes",
+            "link": "list.html"
+        },
+        {
+            "text": "accessories",
+            "link": "list.html"
+        }
+
+    ],
+    "bag": "Bag"
+    
+  }
+}

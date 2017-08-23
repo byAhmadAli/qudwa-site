@@ -1,0 +1,95 @@
+
+body {
+	direction: #{$text-direction};
+	color: #474747;
+	height: 100%;
+	font-family: #{$font-family};
+	-webkit-font-smoothing: antialiased;
+	*{
+		outline: none;
+	}
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4{
+	font-family: #{$font-family};
+}
+.accordion.box-title{
+	display: block !important;
+	a{
+		width: 100%;
+		display: block;
+	}
+}
+.container-fluid{
+	background-color: #fff;
+}
+.wrapper{
+	margin-bottom: 30px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.en-direction{
+	direction: ltr;
+	display: inline-block;
+}
+.ar-direction{
+	direction: rtl;
+	display: inline-block;
+}
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+.headers{
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    width: 411px;
+    height: 140px;
+    margin: 45px auto 25px;
+    padding-#{$default-float}: 131px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    .block{
+		display: block;
+		@media (max-width: $screen-sm-max){
+			display: inline-block;
+		}
+	}
+    @media (max-width: $screen-sm-max){
+		background: #1e1a4d !important;
+		font-size: 34px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		height: auto;
+		margin-bottom: 50px;
+	}
+}
+
+.footer{
+	background: #201b4e;
+	float: #{$default-float};
+	width: 100%;
+	padding: 20px 0;
+	.text-center{
+		color: #fff;
+		margin: 0;
+	}
+}

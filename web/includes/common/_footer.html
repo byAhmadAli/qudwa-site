@@ -1,0 +1,56 @@
+<div class="main-footer">
+	<div class="container">
+		<div class="col-sm-12">
+			<div class="col-sm-3">
+							
+			</div>
+			{{#each footer.menu}}
+			<div class="col-sm-3">
+				<h3 class="head-title">{{this.head}}</h3>
+				<ul>
+					{{#each this.menu}}
+					<li>
+						<a href="{{this.link}}">{{this.text}}</a>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+			{{/each}}
+			<div class="col-sm-3">
+				<h3 class="head-title">{{footer.follow}}</h3>
+				<ul class="social">
+					<li>
+						<a href="#">
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+				<img class="img-responsive" src="images/{{lang}}/stores_logos.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="second-footer">
+	<div class="container">
+		<div class="col-sm-12">
+			<ul>
+				{{#each footer.secondMenu}}
+				<li>
+					<a href="#">{{this}}</a>
+				</li>
+				{{/each}}
+			</ul>
+			<p>{{footer.copyright}}</p>
+		</div>
+	</div>
+</div>

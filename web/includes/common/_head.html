@@ -1,0 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>{{page.title}}</title>
+
+<link href="https://fonts.googleapis.com/css?family=Cairo&amp;subset=arabic,latin-ext" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="http://simplelineicons.com/css/simple-line-icons.css" />
+
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/common.css">
+{{#file page.file}}
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{page.file}}.css">
+{{else}}
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{basename}}.css">
+{{/file}}

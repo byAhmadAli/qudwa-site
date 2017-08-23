@@ -1,0 +1,22 @@
+.first-header{
+	top: 0;
+}
+.main-header{
+    height: 72.8vh;
+    margin-top: 115px;
+}
+
+.loginForm{
+	padding-top: 75px;
+	.form-group{
+		float: left;
+		width: 100%;
+		label{
+			color: #fff;
+		}
+		.form-control{
+			background: #fff;
+			border-radius: 15px;
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"compile": {
+		"ltr": {
+			"assets/css/en/common.css": "assets/sass/build/en/common.scss",
+			"assets/css/en/home.css": "assets/sass/build/en/home.scss",
+			"assets/css/en/knowledge.css": "assets/sass/build/en/knowledge.scss",
+			"assets/css/en/agenda.css": "assets/sass/build/en/agenda.scss",
+			"assets/css/en/attendees.css": "assets/sass/build/en/attendees.scss",
+			"assets/css/en/favorite.css": "assets/sass/build/en/favorite.scss",
+			"assets/css/en/speekers.css": "assets/sass/build/en/speekers.scss",
+			"assets/css/en/login.css": "assets/sass/build/en/login.scss",
+			"assets/css/en/about.css": "assets/sass/build/en/about.scss"
+
+
+		},
+		"rtl": {
+			"assets/css/ar/common.css": "assets/sass/build/ar/common.scss",
+			"assets/css/ar/home.css": "assets/sass/build/ar/home.scss",
+			"assets/css/ar/knowledge.css": "assets/sass/build/ar/knowledge.scss",
+			"assets/css/ar/agenda.css": "assets/sass/build/ar/agenda.scss",
+			"assets/css/ar/attendees.css": "assets/sass/build/ar/attendees.scss",
+			"assets/css/ar/favorite.css": "assets/sass/build/ar/favorite.scss",
+			"assets/css/ar/speekers.css": "assets/sass/build/ar/speekers.scss",
+			"assets/css/ar/login.css": "assets/sass/build/ar/login.scss",
+			"assets/css/ar/about.css": "assets/sass/build/ar/about.scss"
+
+
+		}
+	},
+	"optimize": {
+		"dist/en/css/common.css": "assets/css/en/common.css",
+		"dist/ar/css/common.css": "assets/css/ar/common.css",
+		"dist/en/css/home.css": "assets/css/en/home.css",
+		"dist/ar/css/home.css": "assets/css/ar/home.css",
+		"dist/en/css/knowledge.css": "assets/css/en/knowledge.css",
+		"dist/ar/css/knowledge.css": "assets/css/ar/knowledge.css",
+		"dist/en/css/agenda.css": "assets/css/en/agenda.css",
+		"dist/ar/css/agenda.css": "assets/css/ar/agenda.css",
+		"dist/en/css/attendees.css": "assets/css/en/attendees.css",
+		"dist/ar/css/attendees.css": "assets/css/ar/attendees.css",
+		"dist/en/css/favorite.css": "assets/css/en/favorite.css",
+		"dist/ar/css/favorite.css": "assets/css/ar/favorite.css",
+		"dist/en/css/speekers.css": "assets/css/en/speekers.css",
+		"dist/ar/css/speekers.css": "assets/css/ar/speekers.css",
+		"dist/en/css/login.css": "assets/css/en/login.css",
+		"dist/ar/css/login.css": "assets/css/ar/login.css",
+		"dist/en/css/about.css": "assets/css/en/about.css",
+		"dist/ar/css/about.css": "assets/css/ar/about.css"
+	}
+}

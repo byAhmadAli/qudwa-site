@@ -1,0 +1,46 @@
+//== support direction
+//
+//## We use these to control text direction settings
+$text-direction: rtl !default;
+$text-direction-opposite: ltr !default;
+
+$opposite-direction: left !default;
+$default-float: right !default;
+
+$bg-info:#1fa3d1;
+$brand-color:#ed4036;
+$color-dark:#1a1c28;
+$color-light:#ededed;
+//----------------------
+$default-btn-theme:$color-light;
+$default-btn-hover:$color-dark;
+$default-btn-theme-dev:$color-dark;
+$default-btn-hover-dev:$color-light;
+$border-sep-dark:#3d435e;
+
+
+$font-family: 'Cairo', sans-serif !default;
+
+//BOXES
+//--------------------------------------------------------
+$box-border-color:  #f4f4f4;
+$box-border-radius: 3px;
+$box-footer-bg:     #fff;
+$box-boxshadow:     0 1px 1px rgba(0, 0, 0, .1);
+$box-padding:       10px;
+
+//Box variants
+$box-default-border-top-color: #d2d6de;
+
+//CHAT WIDGET
+//--------------------------------------------------------
+$attachment-border-radius: 3px;
+
+$flagsImagePath: "../../images/" !default;
+
+//Side bar and logo width
+$sidebar-width: 230px;
+//Boxed layout maximum width
+$boxed-layout-max-width: 1024px;
+//When the logo should go to the top of the screen
+$screen-header-collapse: $screen-xs-max;

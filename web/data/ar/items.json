@@ -1,0 +1,51 @@
+{
+	"items": [
+		{
+			"title": "Royal Sleeveless Plain Pleated Women's Maxi Dress",
+			"price": "USD $9.99",
+			"img": "ar/01.jpeg",
+			"look": "تصفح و تسوق"
+		},
+		{
+			"title": "Floral Print Hole Loose Women's Blouse",
+			"price": "USD $21.99",
+			"img": "ar/02.jpeg",
+			"look": "تصفح و تسوق"
+		},
+		{
+			"title": "Blue Long Sleeve Printing Women's Day Dress",
+			"price": "USD $18.99",
+			"img": "ar/03.jpeg",
+			"look": "تصفح و تسوق"
+		},
+		{
+			"title": "Stripe Falbala Patchwork Asymmetrical Skirt",
+			"price": "USD $20.99",
+			"img": "ar/04.jpeg",
+			"look": "تصفح و تسوق"
+		},
+		{
+			"title": "Royal Sleeveless Plain Pleated Women's Maxi Dress",
+			"price": "USD $9.99",
+			"img": "ar/01.jpeg",
+			"look": "تصفح و تسوق"
+		},
+		{
+			"title": "Floral Print Hole Loose Women's Blouse",
+			"price": "USD $21.99",
+			"img": "ar/02.jpeg",
+			"look": "تصفح و تسوق"
+		},
+		{
+			"title": "Blue Long Sleeve Printing Women's Day Dress",
+			"price": "USD $18.99",
+			"img": "ar/03.jpeg"
+		},
+		{
+			"title": "Stripe Falbala Patchwork Asymmetrical Skirt",
+			"price": "USD $20.99",
+			"img": "ar/04.jpeg",
+			"look": "تصفح و تسوق"
+		}
+	]
+}

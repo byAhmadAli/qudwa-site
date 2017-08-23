@@ -1,0 +1,82 @@
+{
+	"footer": {
+		"menu": [
+            {
+                "head": "customer guidance",
+                "menu": [
+                    {
+                        "text": "Make Orders",
+                        "link": "#"
+                    },
+                    {
+                        "text": "VIP Program",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Whole Program",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Register Coupon Usage",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Size Chart",
+                        "link": "#"
+                    },
+                    {
+                        "text": "FAQ",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Student Discount",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "head": "policies",
+                "menu": [
+                    {
+                        "text": "Payment Methods",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Shipping Methods",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Shipping Cost",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Delivery Time",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Customs & Import Tax",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Issues",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Return & Exchange",
+                        "link": "#"
+                    },
+                    {
+                        "text": "Order Cancellation",
+                        "link": "#"
+                    }
+                ]
+            }
+		],
+        "secondMenu":[
+            "about us", "contact us", "help center", "security & privacy", "terms of use", 
+            "copy right", "sitemap", "product reviews", "blog"
+        ],
+        "follow": "follow us",
+        "copyright": "© 2017 idk.com All Rights Reserved"
+	}
+}

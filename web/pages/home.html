@@ -1,0 +1,159 @@
+<div class="container">
+	<div class="col-md-4 intor-img">
+		<img src="images/{{lang}}/about.png" class="hidden-xs hidden-sm">
+		<img src="images/{{lang}}/about-mobile.png" class="hidden-md hidden-lg">
+	</div>
+	<div class="col-md-8 intor-msg">
+		<p>Qudwa is a global forum with teachers at its heart. Organised under the patronage of His Highness Sheikh Mohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi, the event will take place at Emirates Palace on October 7 and 8, 2017.<br/><br/>
+
+		Qudwa aims to achieve greater recognition for the teaching profession. It will bring together more than 800 local and international participants, who will share insights and best practices to empower teachers and inspire the minds of tomorrow. Participation is by invitation only.<br/><br/>
+
+		The forum, designed by teachers, for teachers, will explore the topic of Teaching for Tomorrow through interactive sessions, discussions, and workshops with experts, leaders, and peers from around the world.<br/><br/>
+
+		The event will be held in partnership with global organisations such as the OECD, the Varkey Foundation, and Teach for All, as well as with local partners like the UAE Ministry of Education, the Abu Dhabi Education Council, ACTVET, and the Knowledge and Human Development Authority.<br/><br/>
+
+		The forum will be attended by teachers, representatives from not-for-profit organisations, and industry experts. </p>
+	</div>
+</div>
+<div class="speekers">
+	<div class="col-xs-12">
+		<div class="speeker-head headers" style="background-image: url('images/{{lang}}/heading-sprite.png');">
+			Speekers
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-xs-12">
+			{{> _speekers}}
+		</div>
+	</div>
+</div>
+
+<div class="agenda">
+	<div class="col-xs-12">
+		<div class="agenda-head headers" style="background-image: url('images/{{lang}}/heading-sprite.png');">
+			Agenda
+			<ul class="nav nav-tabs hidden-xs hidden-sm" role="tablist">
+				<li>OCTOBER</li>
+			    <li role="presentation" class="active"><a href="#october7" aria-controls="october7" role="tab" data-toggle="tab">7<sup>th</sup></a></li>
+			    <li role="presentation"><a href="#october8" aria-controls="october8" role="tab" data-toggle="tab">8<sup>th</sup></a></li>
+		  	</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-xs-12 no-padding">
+			<ul class="nav nav-tabs hidden-md hidden-lg" role="tablist">
+			    <li role="presentation" class="active"><a href="#october7" aria-controls="october7" role="tab" data-toggle="tab">October 7<sup>th</sup></a></li>
+			    <li role="presentation"><a href="#october8" aria-controls="october8" role="tab" data-toggle="tab">October 8<sup>th</sup></a></li>
+		  	</ul>
+		  	<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="october7">
+					<div class="agenda-slider">
+						<ul class="agenda-items" data-direction="{{direction}}">
+							{{> _agenda-items}}
+						</ul>
+						<span class="icon icon-arrow-{{oppositeDirection}}"></span>
+						<span class="icon icon-arrow-{{defaultFloat}}"></span>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="october8">
+					<div class="agenda-slider">
+						New Month Carousel ...
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="partners">
+	<div class="col-xs-12">
+		<div class="partners-head headers" style="background-image: url('images/{{lang}}/heading-sprite.png');">
+			partners
+		</div>
+	</div>
+	<div class="container text-center">
+		<div class="col-xs-12 col-md-4 partner-section">
+			<h3>strategic partners</h3>
+			<img src="images/partners/01.png" class="partner">
+		</div>
+		<div class="col-xs-12 col-md-4 partner-section">
+			<h3>knowledge partners</h3>
+			<div class="row">
+				<div class="col-xs-6 col-md-12">
+					<img src="images/partners/02.png" class="partner">
+				</div>
+				<div class="col-xs-6 col-md-12 text-center">
+					<img src="images/partners/03.png" class="partner">
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-4 partner-section">
+			<h3>service partners</h3>
+			<div class="row">
+				<div class="col-xs-6 col-md-12">
+					<img src="images/partners/04.png" class="partner">
+				</div>
+				<div class="col-xs-6 col-md-12 text-center">
+					<img src="images/partners/05.png" class="partner">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="social">
+	<div class="col-xs-12">
+		<div class="social-head headers" style="background-image: url('images/{{lang}}/heading-sprite.png');">
+			Social Feed
+		</div>
+	</div>
+	<div class="container">
+		<a class="twitter-timeline" href="https://twitter.com/qudwaforum">Tweets by qudwaforum</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+</div>
+
+<div class="map">
+	<div class="headers hidden-md hidden-lg">contact us</div>
+	<img class="img-responsive" src="images/map.jpg">
+</div>
+
+<div class="contact">
+	<div class="col-xs-12">
+		<div class="contact-head headers hidden-xs hidden-sm" style="background-image: url('images/{{lang}}/heading-sprite.png');">
+			contact us
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<form class="contactForm">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<input type="text" id="full-name" name="fullName" class="form-control" placeholder="Full name">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<input type="text" id="email" name="email" class="form-control" placeholder="Email">
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="form-group">
+						<textarea id="description" name="description" class="form-control" placeholder="Description" rows="3"></textarea>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="social-links pull-{{defaultFloat}}">
+						<ul class="list-inline">
+			            	<li><a href="#" class="social-icons"><i class="fa fa-twitter"></i></a></li>
+			                <li><a href="#" class="social-icons"><i class="fa fa-instagram"></i></a></li>
+			                <li><a href="#" class="social-icons"><i class="fa fa-facebook"></i></a></li>
+			            </ul>
+					</div>
+					<div class="form-group pull-{{oppositeDirection}}">
+						<input type="submit" name="send" class="btn btn-primary" value="send">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
